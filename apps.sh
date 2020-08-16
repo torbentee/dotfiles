@@ -21,14 +21,20 @@ brew tap caskroom/versions
 # 1Password
 brew cask install 1password
 
+# Cyberduck
+brew cask install cyberduck
+
 # Docker
 brew cask install docker
 
 # Dropbox
-brew cask install dropbox
+#brew cask install dropbox
 
 # Chrome
 brew cask install google-chrome
+
+# Firefox
+brew cask install firefox
 
 # iTerm2
 brew cask install iTerm2
@@ -39,14 +45,20 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 # Postman
 brew cask install postman 
 
-# Spectacle
-brew cask install spectacle 
+# Rectangle
+brew cask install rectangle
 
 # Set up keyboard shortcuts
-cp -r ./apps/spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+#cp -r ./apps/spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+
+# Slack
+brew cask install slack
 
 # Spotify
 brew cask install spotify
 
 # Visual Studio Code
-brew cask install visual-studio-code-insiders
+brew cask install visual-studio-code
+
+# VLC
+brew cask install vlc

@@ -9,7 +9,12 @@ unset file;
 # Symlink dotfiles
 DOTFILES_DIR=$(pwd)
 
-for file in $DOTFILES_DIR/.{zshrc,exports,aliases,functions,extras}; do
+for file in $DOTFILES_DIR/.{zshrc,exports,aliases,functions,extras,vimrc,wgetrc}; do
 	[ -r "$file" ] && [ -f "$file" ] && ln -s $file $HOME;
 done;
 unset file;
+
+# Setup VIM directories
+for file in $HOME/.vim/{.,backups,swaps}; do
+	[ -r "$file" ] && [ -d "$file" ] && mkdir $file ;
+done;

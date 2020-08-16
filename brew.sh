@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Install Xcode CLI Tools 
+sudo softwareupdate -i -a
+xcode-select --install
+
 # Install Homebrew
 command -v brew >/dev/null 2>&1 || { echo >&2 "Installing Homebrew..."; \
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"; }
