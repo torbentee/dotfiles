@@ -16,5 +16,5 @@ unset file;
 
 # Setup VIM directories
 for file in $HOME/.vim/{.,backups,swaps}; do
-	[ -r "$file" ] && [ -d "$file" ] && mkdir $file ;
+	[ ! -d "$file" ] && mkdir $file ;
 done;

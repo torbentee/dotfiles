@@ -14,6 +14,7 @@ for file in $HOME/.{exports,aliases,functions,extras}; do
 done;
 unset file;
 
+ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
 
 # Load zsh shell integration
