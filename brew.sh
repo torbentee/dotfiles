@@ -61,22 +61,16 @@ install_brew_package woff2
 
 # Install other useful binaries.
 install_brew_package ack
-install_brew_package fx
 install_brew_package git
-install_brew_package git-lfs
-install_brew_package httpie
 install_brew_package imagemagick --with-webp
 install_brew_package jq
-install_brew_package lua
 install_brew_package lynx
-install_brew_package p7zip
+install_brew_package nvm
 install_brew_package pigz
-install_brew_package pv
 install_brew_package rename
 install_brew_package rlwrap
 install_brew_package ssh-copy-id
 install_brew_package tree
-install_brew_package vbindiff
 install_brew_package yarn --without-node
 install_brew_package zopfli
 install_brew_package zsh

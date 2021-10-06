@@ -18,3 +18,4 @@ unset file;
 for file in $HOME/.vim/{.,backups,swaps}; do
 	[ -r "$file" ] && [ -d "$file" ] && mkdir $file ;
 done;
+unset file;

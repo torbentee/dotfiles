@@ -4,9 +4,11 @@ ZSH_THEME="agnoster"
 
 plugins=(
   docker
-  git 
+  git
   zsh-autosuggestions
   zsh-syntax-highlighting
+  bgnotify
+  npm
 )
 
 for file in $HOME/.{exports,aliases,functions,extras}; do
@@ -22,5 +24,11 @@ if test -f "$SHELL_INTEGRATION"; then
   source $SHELL_INTEGRATION
 fi
 
-# disable user@hostname on local machine
 prompt_context(){}
+
+export PATH="$(yarn global dir):$PATH"
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
