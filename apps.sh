@@ -27,11 +27,10 @@ brew cask install cyberduck
 # Docker
 brew cask install docker
 
-# Dropbox
-#brew cask install dropbox
-
 # Chrome
 brew cask install google-chrome
+
+brew cask install brave-browser
 
 # Firefox
 brew cask install firefox
@@ -62,3 +61,23 @@ brew cask install visual-studio-code
 
 # VLC
 brew cask install vlc
+
+# NVM
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+
+# OpenLens
+brew cask install openlens
+
+brew cask install nextcloud
+
+brew cask install telegram
+
+brew cask install whatsapp
+
+brew cask install figma
+
+brew cask install alfred
+
+brew cask install bitwarden
+
+brew cask install zotero
