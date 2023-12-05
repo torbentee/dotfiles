@@ -56,7 +56,6 @@ install_brew_package openssh
 install_brew_package screen
 
 # Install font tools.
-brew tap bramstein/webfonttools
 install_brew_package woff2
 
 # Install other useful binaries.
