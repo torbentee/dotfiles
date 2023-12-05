@@ -15,69 +15,66 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 # Install zsh-nvm plugin
 git clone https://github.com/lukechilds/zsh-nvm $ZSH_CUSTOM/plugins/zsh-nvm
 
-brew tap caskroom/cask
-brew tap caskroom/versions
-
 # 1Password
-brew cask install 1password
+brew install --cask 1password
 
 # Cyberduck
-brew cask install cyberduck
+brew install --cask cyberduck
 
 # Docker
-brew cask install docker
+brew install --cask docker
 
 # Chrome
-brew cask install google-chrome
+brew install --cask google-chrome
 
-brew cask install brave-browser
+brew install --cask brave-browser
 
 # Firefox
-brew cask install firefox
+brew install --cask firefox
 
 # iTerm2
-brew cask install iTerm2
+brew install --cask iTerm2
 
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 # Postman
-brew cask install postman 
+brew install --cask postman 
 
 # Rectangle
-brew cask install rectangle
+brew install --cask rectangle
 
 # Set up keyboard shortcuts
 #cp -r ./apps/spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
 
 # Slack
-brew cask install slack
+brew install --cask slack
 
 # Spotify
-brew cask install spotify
+brew install --cask spotify
 
 # Visual Studio Code
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 
 # VLC
-brew cask install vlc
+brew install --cask vlc
 
 # NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 
 # OpenLens
-brew cask install openlens
+brew install --cask openlens
 
-brew cask install nextcloud
+brew install --cask nextcloud
 
-brew cask install telegram
+brew install --cask telegram
 
-brew cask install whatsapp
+brew install --cask whatsapp
 
-brew cask install figma
+brew install --cask figma
 
-brew cask install alfred
+brew install --cask alfred
 
-brew cask install bitwarden
+brew install --cask bitwarden
 
-brew cask install zotero
+brew install --cask zotero
