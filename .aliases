@@ -58,10 +58,10 @@ alias wipedocker='wipe_docker'
 alias today="date +%Y-%m-%d"
 
 # yarn watch tests
-alias ytw="yarn test --watch" 
+alias ytw="yarn test --watch"
 
 # yarn test coverage
-alias ytc="yarn coverage" 
+alias ytc="yarn coverage"
 
 # open configuration files
 alias openaliases="$EDITOR $HOME/.aliases"
@@ -70,7 +70,7 @@ alias openextras="$EDITOR $HOME/.extras"
 alias openfunctions="$EDITOR $HOME/.functions"
 alias openzshrc="$EDITOR $HOME/.zshrc"
 
-### Sufix aliases 
+### Sufix aliases
 # alias -s extension=name-of-the-tool-to-open-the-fiel
 
 # Markdown files
@@ -88,9 +88,11 @@ if [[ $OSTYPE == darwin* ]]; then
 
   # Apps
   alias browse="open -a /Applications/Google\ Chrome.app"
-  
+
   alias atomicmoney="browse http://atomicmoney.app"
   alias github="browse https://github.com/mersocarlin"
   alias mersocarlin="browse https://mersocarlin.com"
-  
+
 fi
+
+alias cdr='cd $(git rev-parse --show-toplevel)'
